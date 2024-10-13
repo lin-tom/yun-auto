@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OA系统官网</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png" alt="OA System Logo">
+                <span class="logo-text">OA系统</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能</a></li>
+                <li><a href="#technology">技术</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="image/R.jpg" alt="Slide 1">
+                <div class="slide-text">
+                    <h2>欢迎使用OA系统</h2>
+                    <p>提高办公效率，优化工作流程</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="image/R.jpg" alt="Slide 2">
+                <div class="slide-text">
+                    <h2>智能审批</h2>
+                    <p>快速处理各类申请，提高审批效率</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="image/R.jpg" alt="Slide 3">
+                <div class="slide-text">
+                    <h2>协同办公</h2>
+                    <p>实现跨部门协作，提升团队效率</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-button prev">&lt;</button>
+        <button class="carousel-button next">&gt;</button>
+    </div>
+    <main>
+        <section id="home">
+            <h1>欢迎使用我们的OA系统</h1>
+            <p>高效、智能的办公自动化解决方案</p>
+            <a href="#" class="cta-button">立即体验</a>
+        </section>
+
+        <section id="features">
+            <h2>主要功能</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="https://via.placeholder.com/150" alt="系统管理">
+                    <h3>系统管理</h3>
+                    <p>全面的用户、角色和菜单管理,确保系统安全和高效运行</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://via.placeholder.com/150" alt="审批模块">
+                    <h3>审批模块</h3>
+                    <p>灵活的审批类型、模板和列表管理,满足各种审批需求</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://via.placeholder.com/150" alt="员工端">
+                    <h3>员工端</h3>
+                    <p>便捷的微信授权登录、申请发起和实时消息推送功能</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="technology">
+            <h2>使用技术</h2>
+            <ul>
+                <li>SpringBoot</li>
+                <li>Redis</li>
+                <li>MyBatisPlus + MySQL</li>
+                <li>SpringSecurity</li>
+                <li>Activiti7</li>
+                <li>Vue + ElementUI</li>
+                <li>微信公众号集成</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="姓名" required>
+                <input type="email" placeholder="邮箱" required>
+                <textarea placeholder="留言" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2023 OA系统官网. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
